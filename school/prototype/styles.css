@@ -38,6 +38,62 @@
   font-family:Arial;
 }
 
+.main-imgs{
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-box{
+  background-color:wheat;
+  width: 15vw;
+  padding: 2em;
+  border-radius: 2em;
+  border: solid black 0.3esm;
+  margin: 0.5em;
+  font-size: 1.4em;
+
+}
+
+/* The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 13em;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  border-right: solid black 0.3em;
+  display: flex;
+  justify-content: top;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.sidebar button{
+  border: none;
+  width: auto;
+  height: auto;
+  font-size: 2em;
+  margin: 0.3em;
+  border-radius: 0.3em;
+  padding: 1em;
+}
+
+.sidebar button:hover{
+  background-color: #444;
+}
+
+
+.not-sidebar{
+  margin-left: 14em;
+}
+
+
+
 /* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
 
 :root{
