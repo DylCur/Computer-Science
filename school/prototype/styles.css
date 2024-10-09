@@ -6,15 +6,70 @@
 
 .bottom-bar{
   /* Hack */
-  top: 93vh;
+  top: 90vh;
   position: fixed;
-  width: 40vw;
   
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+/* This is for the motivational message */
+#motiv{
+  width: 14em;
+  margin: 2em;
+  font-family:Arial;
+}
+
+.bottom-bar .item{
+  border: none;
+  height: 10vh;
+  width: 25vw;
+}
+
+#active{
+  background-color: #444;
+}
+
+#fancy{
+  width: 14em;
+  margin: 0.5em;
+  font-family:Arial;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+:root{
+  font-family: sans-serif;
+}
+
+.bottom-bar{
+  /* Hack 
+  top: 90vh;
+  position: fixed;
+  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.bottom-bar .item{
+  border: none;
+  height: 10vh;
+  width: 25vw;
 }
 
 #motiv{
   width: 14em;
   margin: 2em;
+  font-family:Arial;
+}
+
+#fancy{
+  width: 14em;
+  margin: 0.5em;
   font-family:Arial;
 }
 
@@ -34,13 +89,21 @@
   width: 22em;
 }
 
-
-
-.bottom-bar .item{
-  border: none;
-  width: auto;
-  height: 7vh;
+.setting-box{
+  background-color:wheat;
+  width: 15vw;
+  padding: 2em;
+  border-radius: 2em;
+  border: solid black 0.3esm;
+  margin: 0.5em;
+  font-size: 1.4em;
 }
+
+
+
+
+
+
 
 .bottom-bar .item:hover{
   background-color: #BBB;
@@ -66,4 +129,4 @@ h2{
   font-family: "Sawarabi Gothic", sans-serif;
   font-weight: 590;
   font-style: normal;
-}
+} */
